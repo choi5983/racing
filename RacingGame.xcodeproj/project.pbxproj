@@ -13,6 +13,19 @@
 		4CC7AA841AF8B9630011C662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC7AA831AF8B9630011C662 /* Images.xcassets */; };
 		4CC7AA871AF8B9630011C662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC7AA851AF8B9630011C662 /* LaunchScreen.xib */; };
 		4CC7AA931AF8B9630011C662 /* RacingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AA921AF8B9630011C662 /* RacingGameTests.swift */; };
+		4CC7AAAA1AF8CA900011C662 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AA9D1AF8CA900011C662 /* SocketAckManager.swift */; };
+		4CC7AAAB1AF8CA900011C662 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AA9E1AF8CA900011C662 /* SocketAnyEvent.swift */; };
+		4CC7AAAC1AF8CA900011C662 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AA9F1AF8CA900011C662 /* SocketEngine.swift */; };
+		4CC7AAAD1AF8CA900011C662 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA01AF8CA900011C662 /* SocketEngineClient.swift */; };
+		4CC7AAAE1AF8CA900011C662 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA11AF8CA900011C662 /* SocketEventHandler.swift */; };
+		4CC7AAAF1AF8CA900011C662 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA21AF8CA900011C662 /* SocketFixUTF8.swift */; };
+		4CC7AAB01AF8CA900011C662 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA31AF8CA900011C662 /* SocketIOClient.swift */; };
+		4CC7AAB11AF8CA900011C662 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA41AF8CA900011C662 /* SocketLogger.swift */; };
+		4CC7AAB21AF8CA900011C662 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA51AF8CA900011C662 /* SocketPacket.swift */; };
+		4CC7AAB31AF8CA900011C662 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA61AF8CA900011C662 /* SocketParser.swift */; };
+		4CC7AAB41AF8CA900011C662 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA71AF8CA900011C662 /* SocketTypes.swift */; };
+		4CC7AAB51AF8CA900011C662 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA81AF8CA900011C662 /* SwiftRegex.swift */; };
+		4CC7AAB61AF8CA900011C662 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7AAA91AF8CA900011C662 /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,19 @@
 		4CC7AA8C1AF8B9630011C662 /* RacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC7AA911AF8B9630011C662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC7AA921AF8B9630011C662 /* RacingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingGameTests.swift; sourceTree = "<group>"; };
+		4CC7AA9D1AF8CA900011C662 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketAckManager.swift"; sourceTree = "<group>"; };
+		4CC7AA9E1AF8CA900011C662 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketAnyEvent.swift"; sourceTree = "<group>"; };
+		4CC7AA9F1AF8CA900011C662 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketEngine.swift"; sourceTree = "<group>"; };
+		4CC7AAA01AF8CA900011C662 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketEngineClient.swift"; sourceTree = "<group>"; };
+		4CC7AAA11AF8CA900011C662 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketEventHandler.swift"; sourceTree = "<group>"; };
+		4CC7AAA21AF8CA900011C662 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketFixUTF8.swift"; sourceTree = "<group>"; };
+		4CC7AAA31AF8CA900011C662 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketIOClient.swift"; sourceTree = "<group>"; };
+		4CC7AAA41AF8CA900011C662 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketLogger.swift"; sourceTree = "<group>"; };
+		4CC7AAA51AF8CA900011C662 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketPacket.swift"; sourceTree = "<group>"; };
+		4CC7AAA61AF8CA900011C662 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketParser.swift"; sourceTree = "<group>"; };
+		4CC7AAA71AF8CA900011C662 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SocketTypes.swift"; sourceTree = "<group>"; };
+		4CC7AAA81AF8CA900011C662 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/SwiftRegex.swift"; sourceTree = "<group>"; };
+		4CC7AAA91AF8CA900011C662 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = "../../../../../../Applications/MAMP/htdocs/rails/meanPrac/Socket.IO-Client-Swift/SocketIOClientSwift/WebSocket.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,7 @@
 		4CC7AA791AF8B9630011C662 /* RacingGame */ = {
 			isa = PBXGroup;
 			children = (
+				4CC7AA9C1AF8CA520011C662 /* SocketIO */,
 				4CC7AA7C1AF8B9630011C662 /* AppDelegate.swift */,
 				4CC7AA7E1AF8B9630011C662 /* ViewController.swift */,
 				4CC7AA801AF8B9630011C662 /* Main.storyboard */,
@@ -110,6 +137,26 @@
 				4CC7AA911AF8B9630011C662 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC7AA9C1AF8CA520011C662 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				4CC7AA9D1AF8CA900011C662 /* SocketAckManager.swift */,
+				4CC7AA9E1AF8CA900011C662 /* SocketAnyEvent.swift */,
+				4CC7AA9F1AF8CA900011C662 /* SocketEngine.swift */,
+				4CC7AAA01AF8CA900011C662 /* SocketEngineClient.swift */,
+				4CC7AAA11AF8CA900011C662 /* SocketEventHandler.swift */,
+				4CC7AAA21AF8CA900011C662 /* SocketFixUTF8.swift */,
+				4CC7AAA31AF8CA900011C662 /* SocketIOClient.swift */,
+				4CC7AAA41AF8CA900011C662 /* SocketLogger.swift */,
+				4CC7AAA51AF8CA900011C662 /* SocketPacket.swift */,
+				4CC7AAA61AF8CA900011C662 /* SocketParser.swift */,
+				4CC7AAA71AF8CA900011C662 /* SocketTypes.swift */,
+				4CC7AAA81AF8CA900011C662 /* SwiftRegex.swift */,
+				4CC7AAA91AF8CA900011C662 /* WebSocket.swift */,
+			);
+			name = SocketIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +259,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC7AAB01AF8CA900011C662 /* SocketIOClient.swift in Sources */,
+				4CC7AAAA1AF8CA900011C662 /* SocketAckManager.swift in Sources */,
+				4CC7AAAD1AF8CA900011C662 /* SocketEngineClient.swift in Sources */,
+				4CC7AAB51AF8CA900011C662 /* SwiftRegex.swift in Sources */,
+				4CC7AAB61AF8CA900011C662 /* WebSocket.swift in Sources */,
+				4CC7AAAC1AF8CA900011C662 /* SocketEngine.swift in Sources */,
 				4CC7AA7F1AF8B9630011C662 /* ViewController.swift in Sources */,
+				4CC7AAB21AF8CA900011C662 /* SocketPacket.swift in Sources */,
+				4CC7AAAE1AF8CA900011C662 /* SocketEventHandler.swift in Sources */,
+				4CC7AAB11AF8CA900011C662 /* SocketLogger.swift in Sources */,
+				4CC7AAAF1AF8CA900011C662 /* SocketFixUTF8.swift in Sources */,
+				4CC7AAB41AF8CA900011C662 /* SocketTypes.swift in Sources */,
+				4CC7AAAB1AF8CA900011C662 /* SocketAnyEvent.swift in Sources */,
 				4CC7AA7D1AF8B9630011C662 /* AppDelegate.swift in Sources */,
+				4CC7AAB31AF8CA900011C662 /* SocketParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
